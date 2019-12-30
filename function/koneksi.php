@@ -4,7 +4,7 @@
      $server = "localhost";
      $username = "root";
      $password = "";
-     $database = "db_penjualan";
+     $database = "e-commerce";
 
 
      $koneksi = mysqli_connect($server, $username, $password, $database) or die("koneksi ke database gagal");

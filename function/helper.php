@@ -1,6 +1,6 @@
 <?php
 
-define("BASE_URL","http://localhost/duh/");
+define("BASE_URL","http://localhost/e-commerce/");
 
  
  $arrayStatusPesanan[0] = "Menunggu Pembayaran";

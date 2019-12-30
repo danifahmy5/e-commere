@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 27, 2019 at 06:40 AM
+-- Generation Time: Dec 30, 2019 at 02:40 AM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.2.0
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_penjualan`
+-- Database: `e-commerce`
 --
 
 -- --------------------------------------------------------
@@ -226,7 +226,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `level`, `nama`, `email`, `alamat`, `phone`, `password`, `status`) VALUES
-(2, 'superadmin', 'admin', 'danifahmy5@gmail.com', 'jl jajar sukosewu Rt 27 Rw 03', '085648434331', 'e929bd5d769acb42416c86bcd7a7d1d2', 'on'),
+(2, 'superadmin', 'admin', 'danifahmy5@gmail.com', 'jl jajar sukosewu Rt 27 Rw 03', '085648434331', '4297f44b13955235245b2497399d7a93', 'on'),
 (11, 'customer', 'dani', 'dani@gmail.com', 'jajar sukosewu', '123456', '827ccb0eea8a706c4c34a16891f84e7b', 'on');
 
 --
@@ -312,7 +312,7 @@ ALTER TABLE `kategori`
 -- AUTO_INCREMENT for table `konfirmasi_pembayaran`
 --
 ALTER TABLE `konfirmasi_pembayaran`
-  MODIFY `konfirmasi_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `konfirmasi_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `kota`
@@ -330,7 +330,7 @@ ALTER TABLE `pesanan`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- Constraints for dumped tables
